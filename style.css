@@ -1,0 +1,13 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border-radius: 0;
+    border: solid;
+}
+@media (orientation:landscape) {
+    .container{
+        border-radius: 20px;
+    }
+    
+}
